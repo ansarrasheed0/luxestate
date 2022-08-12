@@ -266,6 +266,7 @@
 
 .leftarea h1 {
     font-size: 2.7vw;
+    color: #20373c;
 }
 
 .leftarea p {
@@ -289,6 +290,443 @@
 .navbar>#navbar-check {
     display: none;
 }
+
+
+
+
+
+
+
+
+/* section 3 more than 500 */
+
+.sec3 {
+    width: 100%;
+    background-color: #f6f5f3;
+    margin-top: 5vw;
+
+}
+
+.sec3contant {
+    width: 93%;
+}
+
+.headtext {
+    font-size: 2vw;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #20373c;
+}
+
+.sec3boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec3box {
+    width: 31.5%;
+    margin-bottom: 25px;
+    box-shadow: -1px -2px 8px 3px #e8e8e8;
+}
+
+.sec3imgdiv {
+    width: 100%;
+    height: 25vw;
+    background-color: #b2d7e9;
+}
+
+.sec3boxtext {
+
+    background-color: #fff;
+    padding: 15px 15px;
+    color: #20373c;
+}
+
+.sec3boxtext h4 {
+    color: #20373c;
+    font-size: 1vw;
+}
+
+.sec3boxfottext {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 0.7vw;
+
+}
+
+.sec3boxfottext h2 {
+    color: #ffcc01;
+    width: 30%;
+    font-size: 1.3vw;
+
+}
+
+.sec3icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    color: #20373c;
+    font-size: 1vw;
+}
+
+
+
+
+.imgspace sup {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0.9vw;
+
+}
+
+
+.sec3foterarea {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.sec3foterarea input {
+
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: none;
+    background-image: url(/images/icons8-search-30.png);
+    background-position: 10px 14px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    outline: none;
+    padding: 12px 20px 12px 35px;
+    width: 21.5vw;
+    height: 45px;
+    font-size: 14px;
+
+
+
+
+}
+
+.sec3foterarea button:nth-child(2) {
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    width: 5.8vw;
+    background-color: #ffcc01;
+    color: #20373c;
+    position: relative;
+    left: -10px;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.sec3foterarea button:nth-child(1) {
+    border: none;
+    height: 45px;
+    width: 15vw;
+    color: #20373c;
+    background-color: #fff;
+    margin-left: 30px;
+    font-weight: bold;
+    transition: .5s;
+    font-size: 1vw;
+
+}
+
+.sec3foterarea button:nth-child(1):hover {
+    background-color: #ffcc01;
+    border: 2px solid #20373c;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sec3foterarea button:nth-child(2):hover {
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* sec4 how it works */
+
+
+
+.sec4headtext h1 {
+    font-size: 2vw;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: #20373c;
+}
+
+
+.headdes {
+    font-size: 1vw;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+}
+
+.sec4contant {
+    margin-bottom: 30px;
+}
+
+.sec4boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+}
+
+.sec4box {
+    width: 31.5%;
+    background-color: #ffcc01;
+    color: #fff;
+    height: 25vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.sec4box:nth-child(2),
+.sec4box:nth-child(3) {
+    background-color: #fff;
+    color: #000;
+    box-shadow: -1px -1px 20px 7px #eff0f2;
+
+}
+
+.sec4box:nth-child(2) p:nth-child(5),
+.sec4box:nth-child(3) p:nth-child(5) {
+    border-bottom: 2px solid #000;
+}
+
+.sec4box h1 {
+    position: absolute;
+    font-size: 12vw;
+    top: -23%;
+    left: -12%;
+    overflow: hidden;
+}
+
+.sec4box span:nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+
+.sec4box span:nth-child(3) {
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 1.3vw;
+}
+
+.sec4box p:nth-child(4) {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    line-height: 2;
+    width: 60%;
+    text-align: justify;
+    font-size: 0.9vw;
+}
+
+.sec4box p:nth-child(5) {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    font-size: 0.9vw;
+    text-align: justify;
+    border-bottom: 2px solid #fff;
+    width: 5.1vw;
+    padding-bottom: 5px;
+
+}
+
+
+
+
+
+/* sec5 services */
+.sec5 {
+    margin-bottom: 10px;
+}
+
+.sec5contant {
+    width: 93%;
+
+}
+
+.sec5boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5leftarea {
+    width: 53%;
+    height: 33vw;
+    background-color: #97becf;
+    position: relative;
+    left: -8%;
+
+}
+
+.sec5rightarea {
+    width: 45%;
+    height: 33vw;
+}
+
+.sec5box {
+    width: 100%;
+    height: 11vw;
+}
+
+.sec5box h1 {
+    padding-left: 3px;
+    color: #20373c;
+}
+
+.sec5box p {
+    padding-top: 1.5vw;
+    line-height: 1.7;
+    font-size: 1vw;
+    word-spacing: -0.5px;
+    color: #20373c;
+}
+
+
+
+
+/* sec6 our agents */
+
+
+.sec6 {
+    background-color: #f6f5f3;
+    margin-top: 40px;
+}
+
+.sec6boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+}
+
+
+.sec6box {
+    width: 31.5%;
+    margin-bottom: 25px;
+    box-shadow: -1px -2px 8px 3px #e8e8e8;
+}
+
+.sec6imgdiv {
+    width: 100%;
+    height: 25vw;
+    background-color: #cdcdcf;
+}
+
+.sec6boxtext {
+
+    background-color: #fff;
+    padding: 10px 10px;
+    color: #20373c;
+}
+
+.sec6boxtext h4 {
+    color: #20373c;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.sec6boxfottext {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.7vw;
+
+}
+
+.sec6boxfottext h2 {
+    color: #ffcc01;
+    width: 60%;
+    font-size: 1vw;
+    font-weight: bold;
+
+}
+
+.sec6icons {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    color: #20373c;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #20373d;
+}
+
+.foterrow {
+    padding-top: 40px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upertext {
+    color: #fff;
+    font-weight: bold;
+}
+
+.inputarea {
+    background-color: #fff;
+    outline: none;
+    width: 20vw;
+    height: 3vw;
+    color: #abb4c4;
+
+
+
+}
+
+.inputarea p {
+    align-self: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.inputarea span {
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 40px;
+}
+
+
+
+
+
+
 
 
 @media (max-width:778px) {
@@ -414,11 +852,19 @@
 
 
     .posterarea {
-        height: 230px;
+        height: 40vw;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .postertext p {
+        font-size: 2.8vw;
+        font-weight: bold;
+        text-align: center;
     }
 
     .posterinfo {
-        width: 81.5%;
+        width: 100%;
         height: 35px;
     }
 
@@ -435,18 +881,21 @@
     }
 
     .postertext {
-        left: 35%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .searchbar {
-        left: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+
     }
 
     .searchbar input {
         background-position: 6px 10px;
         background-size: 10px;
         padding: 13px 25px 13px 18px;
-        width: 31vw;
+        width: 25vw;
         height: 30px;
         font-size: 9px;
     }
@@ -455,7 +904,7 @@
         left: -4px;
         font-size: 9px;
         height: 30px;
-        width: 9.8vw;
+        width: 8.8vw;
     }
 
 
@@ -484,7 +933,7 @@
     }
 
     .racontent {
-        width: 90%;
+        width: 100%;
     }
 
     .rabox {
@@ -500,6 +949,230 @@
     .rabox p {
         font-size: 2.5vw;
     }
+
+
+
+
+    /* sec3 */
+    .headtext {
+        font-size: 4vw;
+    }
+
+    .sec3contant {
+        width: 100%;
+    }
+
+    .sec3boxes {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .sec3box {
+        width: 48%;
+    }
+
+    .sec3boxtext {
+        padding: 1px 10px;
+    }
+
+    .sec3boxtext h4 {
+        font-size: 1.8vw;
+        padding-top: 10px;
+    }
+
+    .sec3boxfottext h2 {
+        font-size: 2.3vw;
+    }
+
+    .sec3boxfottext {
+        margin-top: 8px;
+        font-size: 6vw;
+    }
+
+    .sec3boxfottext {
+        font-size: 2.5vw;
+        margin-bottom: 6px;
+    }
+
+    .sec3icons {
+        font-size: 1vw;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .imgspace sup {
+        font-size: 1.7vw;
+        margin-left: 5px;
+    }
+
+    .sec3foterarea {
+        flex-direction: column;
+    }
+
+    .sec3foterarea input {
+        width: 50vw;
+
+    }
+
+    .sec3foterarea button:nth-child(2) {
+        width: 15vw;
+        height: 46px;
+        font-size: 2.5vw;
+    }
+
+    .allaptbtn {
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .sec3foterarea button:nth-child(1) {
+        width: 40vw;
+        font-size: 2.5vw;
+    }
+
+
+
+    /* sec4 how it works */
+    .sec4headtext h1 {
+        font-size: 4vw;
+        margin-bottom: 5px;
+    }
+
+    .headdes {
+        font-size: 2vw;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+    }
+
+    .sec4boxes {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .sec4box {
+        width: 80%;
+        margin: 0px auto 20px auto;
+        height: 45vw;
+    }
+
+    .sec4box h1 {
+        top: -15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .sec4box span:nth-child(2),
+    .sec4box span:nth-child(3) {
+        font-size: 2.8vw;
+        font-weight: bold;
+
+    }
+
+    .sec4box p:nth-child(4) {
+        font-size: 2.7vw;
+        top: 45%;
+        left: 20%;
+        line-height: 1.4;
+    }
+
+    .sec4box p:nth-child(5) {
+        top: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2.7vw;
+        width: 17.1vw;
+        padding-bottom: 2px;
+        font-weight: bold;
+    }
+
+
+
+
+
+    /* sec5 services */
+
+
+    .sec5head {
+        padding-top: 0px !important;
+    }
+
+    .sec5contant {
+        width: 100%;
+
+    }
+
+    .sec5boxes {
+        flex-direction: column;
+    }
+
+    .sec5leftarea {
+        width: 100%;
+        left: 0;
+        height: 25vw;
+    }
+
+    .sec5rightarea {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 18px;
+    }
+
+    .sec5box {
+        width: 80%;
+        height: auto;
+        margin: 0px auto 15px auto;
+    }
+
+    .sec5box h1 {
+        font-size: 3vw;
+    }
+
+    .sec5box p {
+        font-size: 2.5vw;
+        text-align: justify;
+        line-height: 1.3;
+    }
+
+
+
+    /* sec6 agents */
+
+    .sec6boxes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sec6box {
+        width: 80%;
+        margin: 0px auto 35px auto;
+        height: 55vw;
+    }
+
+    .sec6imgdiv {
+        height: 44vw;
+    }
+
+    .sec6boxtext h4 {
+        font-size: 3vw;
+    }
+
+    .sec6boxfottext h2 {
+        font-size: 3vw;
+    }
+
+    .sec6icons {
+        font-size: 3vw;
+    }
+
+
 
 
 }
